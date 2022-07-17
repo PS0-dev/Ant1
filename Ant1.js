@@ -6,7 +6,7 @@
 a = document.getElementsByTagName('a');
 for (i = 0; i < a.length; i++) {
 	url = new URL(a[i].href);
-	if (url.href.match('^https://businesswebmail\.a1\.net/webmail/redirect\?')) {
+	if (url.href.match('^https://(businessweb)?mail\.a1\.net/webmail/redirect\?')) {
 		urlSearchParams = new URLSearchParams(url.search);
 		if (urlSearchParams.has('u')) {
 			a[i].href = urlSearchParams.get('u');

@@ -11,7 +11,8 @@
         "Ant1.js"
       ],
       "matches": [
-        "https://businesswebmail.a1.net/webmail/*"
+        "https://businesswebmail.a1.net/webmail/*",
+        "https://mail.a1.net/webmail/*"
       ]
     }
   ],
